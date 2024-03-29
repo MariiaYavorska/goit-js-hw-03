@@ -1,4 +1,4 @@
-    'strict mode'
+    'use strict'
     function slugify(title) {
     const modifiedTitle = title.toLowerCase();
     const slugSplit = modifiedTitle.split(" ");
